@@ -123,7 +123,3 @@ python scripts/kmeans_clustering.py
 
 ---
 
-## Author
-
-Majid Bahramian  
-Environmental Engineer | Data-Driven Environmental Modelling
