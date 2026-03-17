@@ -10,7 +10,7 @@ This repository contains Python workflows for multivariate analysis of E. coli c
 
 ---
 
-## 📌 Research Context
+## Research Context
 
 This work supports environmental modelling of microbial contamination in catchments, particularly focusing on:
 
@@ -20,7 +20,7 @@ This work supports environmental modelling of microbial contamination in catchme
 
 ---
 
-## ⚙️ Methods
+## Methods
 
 ### 1. Data preprocessing
 - Standardization (z-score normalization)
