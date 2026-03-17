@@ -48,6 +48,9 @@ This work supports environmental modelling of microbial contamination in catchme
 ### PCA Loading Plot
 ![PCA Plot](results/figures/pca_loading_plot.png)
 
+### PCA Scores Plot
+![PCA Scores](results/figures/pca_scores.png)
+
 ### K-means Variable Clusters
 ![KMeans Plot](results/figures/kmeans_clusters.png)
 
