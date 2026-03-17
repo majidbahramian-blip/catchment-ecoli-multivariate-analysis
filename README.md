@@ -19,7 +19,7 @@ This work supports environmental modelling of microbial contamination in catchme
 
 ---
 
-## ⚙️ Methods
+## Methods
 
 ### 1. Data preprocessing
 - Standardization (z-score normalization)
@@ -94,5 +94,36 @@ All variables are standardized prior to analysis.
 ---
 
 ## Repository Structure
+data/
+├── raw/
+└── processed/
+
+scripts/
+├── pca_analysis.py
+├── kmeans_clustering.py
+
+results/
+└── figures/
+├── pca_loading_plot.png
+├── pca_scores.png
+└── kmeans_clusters.png
+
+README.md
+requirements.txt
 
 
+---
+
+## How to Run
+
+```bash
+pip install -r requirements.txt
+python scripts/pca_analysis.py
+python scripts/kmeans_clustering.py
+
+---
+
+## Author
+
+Majid Bahramian  
+Environmental Engineer | Data-Driven Environmental Modelling
