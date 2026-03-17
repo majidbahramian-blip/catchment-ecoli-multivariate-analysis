@@ -9,7 +9,7 @@ This repository contains Python workflows for multivariate analysis of *E. coli*
 
 ---
 
-## 📌 Research Context
+## Research Context
 
 This work supports environmental modelling of microbial contamination in catchments, particularly focusing on:
 
@@ -43,7 +43,7 @@ This work supports environmental modelling of microbial contamination in catchme
 
 ---
 
-## 📊 Example Outputs
+## Example Outputs
 
 ### PCA Loading Plot
 ![PCA Plot](results/figures/pca_loading_plot.png)
@@ -56,7 +56,7 @@ This work supports environmental modelling of microbial contamination in catchme
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
 - Rainfall-related variables strongly influence the first principal component (PC1)  
 - Temperature variables form a distinct cluster in multivariate space  
@@ -65,7 +65,7 @@ This work supports environmental modelling of microbial contamination in catchme
 
 ---
 
-## 📁 Data Description
+## Data Description
 
 The dataset includes:
 
@@ -79,7 +79,7 @@ All variables are standardized prior to analysis.
 
 ---
 
-## 🔄 Workflow
+## Workflow
 
 1. Load and preprocess dataset  
 2. Standardize variables (z-score normalization)  
@@ -93,6 +93,6 @@ All variables are standardized prior to analysis.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 
