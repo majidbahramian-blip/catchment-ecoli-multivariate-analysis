@@ -1,7 +1,6 @@
-
 # E. coli Catchment Multivariate Analysis
 
-This repository contains Python workflows for multivariate analysis of E. coli concentrations and environmental variables in catchments using:
+This repository contains Python workflows for multivariate analysis of *E. coli* concentrations and environmental variables in catchments using:
 
 - Principal Component Analysis (PCA)
 - Hierarchical clustering
@@ -10,17 +9,17 @@ This repository contains Python workflows for multivariate analysis of E. coli c
 
 ---
 
-## Research Context
+## 📌 Research Context
 
 This work supports environmental modelling of microbial contamination in catchments, particularly focusing on:
 
-- Transport and persistence of E. coli
+- Transport and persistence of *E. coli*
 - Relationships with hydrological and meteorological variables
 - Identification of dominant drivers using dimensionality reduction
 
 ---
 
-## Methods
+## ⚙️ Methods
 
 ### 1. Data preprocessing
 - Standardization (z-score normalization)
@@ -28,21 +27,69 @@ This work supports environmental modelling of microbial contamination in catchme
 - Variable selection
 
 ### 2. PCA
-- Correlation matrix-based PCA
-- Extraction of principal components
-- Interpretation of loadings and explained variance
+- Correlation matrix-based PCA  
+- Extraction of principal components  
+- Interpretation of loadings and explained variance  
 
 ### 3. Clustering
-- Hierarchical clustering (linkage-based)
-- K-means clustering (variable grouping)
-- Cluster validation via PCA space
+- Hierarchical clustering (linkage-based)  
+- K-means clustering (variable grouping)  
+- Cluster validation via PCA space  
 
 ### 4. Visualization
-- PCA loading plots
-- Cluster-colored variable maps
-- Scatter plots in PC space
+- PCA loading plots  
+- Cluster-colored variable maps  
+- Scatter plots in PC space  
+
+---
+
+## 📊 Example Outputs
+
+### PCA Loading Plot
+![PCA Plot](results/figures/pca_loading_plot.png)
+
+### K-means Variable Clusters
+![KMeans Plot](results/figures/kmeans_clusters.png)
+
+---
+
+## 🔍 Key Findings
+
+- Rainfall-related variables strongly influence the first principal component (PC1)  
+- Temperature variables form a distinct cluster in multivariate space  
+- *E. coli* concentrations show strongest association with short-term antecedent rainfall  
+- Clustering reveals clear grouping of hydrological vs anthropogenic drivers  
+
+---
+
+## 📁 Data Description
+
+The dataset includes:
+
+- *E. coli* concentrations (MPN/100ml)  
+- Rainfall (multiple antecedent periods)  
+- Air temperature (weekly/monthly)  
+- River discharge  
+- Land-use indicators (e.g., livestock density, population)  
+
+All variables are standardized prior to analysis.
+
+---
+
+## 🔄 Workflow
+
+1. Load and preprocess dataset  
+2. Standardize variables (z-score normalization)  
+3. Perform PCA (correlation matrix)  
+4. Extract loadings and scores  
+5. Apply clustering:
+   - Hierarchical clustering  
+   - K-means clustering  
+6. Visualize results in PCA space  
+7. Export results (Excel + figures)  
 
 ---
 
 ## 📂 Repository Structure
+
 
