@@ -9,16 +9,6 @@ This repository contains Python workflows for multivariate analysis of *E. coli*
 
 ---
 
-## Research Context
-
-This work supports environmental modelling of microbial contamination in catchments, particularly focusing on:
-
-- Transport and persistence of *E. coli*
-- Relationships with hydrological and meteorological variables
-- Identification of dominant drivers using dimensionality reduction
-
----
-
 ## Methods
 
 ### 1. Data preprocessing
