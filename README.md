@@ -1,3 +1,9 @@
+## Key Contribution
+
+This project develops a Python-based workflow to identify dominant environmental drivers of *E. coli* contamination in catchments using PCA and clustering techniques.
+
+Combines environmental modelling + data science for real-world applications.
+
 # E. coli Catchment Multivariate Analysis
 
 This repository contains Python workflows for multivariate analysis of *E. coli* concentrations and environmental variables in catchments using:
